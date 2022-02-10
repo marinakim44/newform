@@ -2,7 +2,11 @@
   "name": "macro-survey",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
+  },
+  "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
     "test": "echo \"Error: no test specified\" && exit 1",
